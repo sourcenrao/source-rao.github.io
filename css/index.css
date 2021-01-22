@@ -1,0 +1,7 @@
+* {
+    box-sizing:border-box;
+}
+
+h1{
+    background-color: linear-gradient(azure,cadetblue,azure);
+}
