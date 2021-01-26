@@ -2,20 +2,25 @@
     box-sizing: border-box;
 }
 
-h1{
-    background-color: linear-gradient(azure,cadetblue,azure);
-    border: 5%;
-    /* text-align: center; */
-}
 
 .nav {
     display: flex;
+    max-width: 1920px;
+    max-height: 50px;
     border: 5% solid lightblue;
     border-radius: 5%;
     margin: auto;
-    /* align-content: center; */
+    width: 30%;
+    justify-content: space-evenly;
+    flex-grow: 1;
 }
 
 .list {
     color: #115
+}
+
+h1{
+    background-color: linear-gradient(azure,cadetblue,azure);
+    border: 5%;
+    /* text-align: center; */
 }
