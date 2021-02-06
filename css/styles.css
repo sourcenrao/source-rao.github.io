@@ -71,12 +71,15 @@ h1 {
 }
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 520px){
     .nav{
-        max-width: 460px;
+        max-width: 490px;
         max-height: 9vh;
-        width: 98%;
+        width: 100%;
     }
+}
+
+@media only screen and (max-width: 620px) {
     .text {
         flex-direction: column;
         padding: 1.5vh 3vw;
@@ -89,24 +92,24 @@ h1 {
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 760px){
+@media only screen and (min-width: 520px) and (max-width: 780px){
     .nav{
         max-width: 730px;
         max-height: 8%;
         width: 90%;
     }
     .text {
-        padding: inherit 3.5vw;
+        padding: inherit 4vw;
     }
 }
 
-@media only screen and (min-width: 760px) and (max-width: 920px){
+@media only screen and (min-width: 780px) and (max-width: 940px){
     .nav {
         max-width: 880px;
         max-height: 6%;
         width: 84%;
     }
     .text {
-        padding: inherit 4vw;
+        padding: inherit 5vw;
     }
 }
