@@ -1,16 +1,26 @@
 
-
-
-.body {
-    background-color: #212529;
+.init {
+    background: #212529;
+    color: #dedad6;
     font-size: 1em;
-    
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: azure;
+}
+a:visited {
+    color:darkcyan;
+}
+a:hover {
+    color: cadetblue;
 }
 
 .nav {
     display: flex;
-    border: 5% solid lightblue;
-    border-radius: 5%;
+    color: azure;
     margin: 20px auto;
     max-width: 1080px;
     max-height: 5%;
@@ -19,34 +29,31 @@
     flex-grow: 1;
 }
 
-.list {
-    color: #115
-}
-
 h1 {
     display: block;
     text-align: center;
     background: linear-gradient(cadetblue,azure,cadetblue);
+    color: #212529;
     padding: 1%;
-    border: -5%;
-    margin: 5% -5%;
+    margin: 2% -5% 4%;
+    font-size: 2em;
 }
 
-
-.col-6 {
+.text {
     display: flex;
-    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 2%;
 }
 
-.title {
-    display: inline-block;
+.text h2 {
+    margin: 5%;
     text-align: center;
-    margin: 0 0 1% 0;
 }
 
-.article-body {
+.text p {
     margin: 2% 0;
-    justify-content: center;
+    padding: 0 2%;
 }
 
 
