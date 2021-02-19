@@ -1,9 +1,17 @@
 
+/* Use for troubleshooting */
+
+/* * {
+    border: solid 1px red;
+} */
+
+/* Body */
+
 .init {
     background: #212529;
     color: #deded6;
 }
- 
+
 /* Link decoration/colors */
 a {
     text-decoration: none;
