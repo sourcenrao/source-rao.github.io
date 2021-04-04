@@ -29,15 +29,7 @@ a:hover {
 /* Nav bar */
 
 .nav {
-    display: flex;
-    color: azure;
-    margin: 20px auto;
-    padding: 0px 5vw;
-    max-width: 1080px;
-    max-height: 5vh;
-    width: 80%;
-    justify-content: space-evenly;
-    flex-grow: 1;
+    flex-direction: row;
 }
 
 h1 {
@@ -82,13 +74,6 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 520px){
-    .nav{
-        max-width: 490px;
-        max-height: 9vh;
-        width: 100%;
-    }
-}
 
 @media only screen and (max-width: 620px) {
     .text {
@@ -104,22 +89,12 @@ h1 {
 }
 
 @media only screen and (min-width: 520px) and (max-width: 780px){
-    .nav{
-        max-width: 730px;
-        max-height: 8%;
-        width: 90%;
-    }
     .text {
         padding: inherit 4vw;
     }
 }
 
 @media only screen and (min-width: 780px) and (max-width: 940px){
-    .nav {
-        max-width: 880px;
-        max-height: 6%;
-        width: 84%;
-    }
     .text {
         padding: inherit 5vw;
     }

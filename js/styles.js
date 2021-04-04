@@ -5,7 +5,7 @@ var frontpage = `<div class="col1">
 <div class="col2">
 <h2>About</h2>
 <p>Utility Mover attempts to estimate your utility costs after a move using current information and the destination location. Thanks to Code Louisville!</p>
-</div>`
+</div>`;
 
 var toggletitle = 0;
 
